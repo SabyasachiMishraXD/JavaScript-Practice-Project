@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Color generator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="parentDiv">
+      <div id="hexContainer">
+        <button id="hex">Click Here to generate hex values</button>
+        <button id="copyToClipboardHex">Copy to clipboard</button>
+      </div>
+
+      <div id="rgbContainer">
+        Red:<input
+          type="range"
+          min="0"
+          max="255"
+          value="100"
+          class="slider"
+          id="red"
+        />
+        Blue:<input
+          type="range"
+          min="0"
+          max="255"
+          value="100"
+          class="slider"
+          id="green"
+        />
+        Green<input
+          type="range"
+          min="0"
+          max="255"
+          value="100"
+          class="slider"
+          id="blue"
+        />
+        <button id="colorRGB">Click Here to generate color values</button>
+        <button id="copyToClipboardRGB">Copy to clipboard</button>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,16 @@
+#parentDiv{
+    display: flex;
+    border: 5px solid black;
+    height: 46vw;
+}
+#hexContainer{
+    border: 5px solid black;
+    width: 50%;
+    /* background-color: #ABCDEF; */
+}
+#rgbContainer{
+    border: 5px solid black;
+    width: 50%;
+    /* background-color: rgb(100, 200, 0); */
+}
+
